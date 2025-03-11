@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: darkolivegreen;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+            nav a {
+                margin: 0 15px;
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+
+            .contact h2 {
+                margin: 0;
+            }
+
+            .contact p {
+                margin: 5px 0;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <a href="HTML website.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="contact-person">
+            <h2>Kheren</h2>
+            <p>Email: matchalatte@gmail.com</p>
+            <p>Telepon: 089525152005</p>
+        </div>
+
+        <div class="contact-person">
+            <h2>Rafael</h2>
+            <p>Email: Rafpun@gmail.com</p>
+            <p>Telepon: 089512122024</p>
+        </div>
+</body>
+</html>
