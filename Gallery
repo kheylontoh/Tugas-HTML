@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: darkolivegreen;
+            color: whitesmoke;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+
+            nav a {
+                color: #ffffff;
+            }
+
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+                nav ul li a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                }
+
+                    nav ul li a:hover {
+                        text-decoration: underline;
+                    }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+
+            .gallery img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s;
+            }
+
+                .gallery img:hover {
+                    transform: scale(1.05);
+                }
+
+        footer {
+            background-color: darkolivegreen;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <h1>Gallery</h1>
+            <ul>
+                <a href="HTML website.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Image Gallery</h2>
+        <div class="gallery">
+            <img src="gambar/matcha.jpg" alt="Image">
+            <img src="gambar/matcha2.jpg" alt="Image 2">
+            <img src="gambar/matcha3.jpg" alt="Image 3">
+            <img src="gambar/matcha4.jpeg" alt="Image 4">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Khey Website.</p>
+    </footer>
+</body>
+</html>
